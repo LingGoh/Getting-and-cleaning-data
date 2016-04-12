@@ -1,4 +1,4 @@
-This is a codebook for the tidydata.csv dataset derived from the UCI HAR dataset.
+This is a codebook for the tidydata.txt dataset derived from the UCI HAR dataset.
 
 #ID Fields
 *`SubjectID` - Subject ID number
