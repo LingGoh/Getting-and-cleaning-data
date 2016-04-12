@@ -57,6 +57,6 @@ dataset<-cbind(subject.activity, cleandata)
 tidydata<-data.table(dataset)
 meltdata<-melt(tidydata, id=c("SubjectID","Activity"))
 castdata<-dcast(meltdata, SubjectID+Activity~variable,mean)
-write.table(castdata, file=”tidydata.csv”, sep=”,”, row.names=FALSE)
+write.table(castdata, file=”tidydata.txt”, sep=”,”, row.names=FALSE)
 
 The final tidy dataset is available on this repo at /tidydata.csv
